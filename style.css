@@ -1,0 +1,151 @@
+img{
+    border-radius: 50%;
+}
+
+
+nav {
+    background-color:gray;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e74c3c;
+}
+#about h2{
+    background-color:gray;
+    color: white;
+}
+
+#about p{
+    border: 60px 40px ;
+    border-style: double;
+    margin: 10px;
+    padding: 10px 15px;
+}
+#skill h2{
+    background-color:gray;
+    color: white;
+}
+
+#skill ul{
+    border: 60px 40px ;
+    border-style: double;
+    margin: 10px;
+    padding: 10px 15px
+
+}
+#skill ul li{
+    padding: 10px 15px;
+    color:black
+    margin: 5px;
+    list-style: none;
+}
+
+#Experience div{
+    border: 60px 40px ;
+    border-style: double;
+    margin: 10px;
+    padding:10px 15px
+}
+#Experience h2{
+    background-color:gray;
+    color: white;
+}
+
+#ac{
+    border: 60px 40px ;
+    border-style: double;
+    margin: 10px;
+    padding: 5px
+}
+#ac h2{
+    background-color: gray;
+    color: white;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 5px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #2c3e50;
+    color: white;
+}
+#tab{
+    background-color:gray;
+    color: white;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 60px 40px ;
+    border-style: double;
+    margin: 10px;
+    padding: 5px
+    
+}
+
+#contact label {
+    font-weight: bold;
+}
+
+#contact input, #contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #2ecc71;
+}
+#contact h2{
+    background-color:gray;
+    color: white;
+}
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color:gray;
+    color: white;
+}
